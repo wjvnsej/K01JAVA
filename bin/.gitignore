@@ -1,9 +1,3 @@
-/common/
-/ex01start/
-/ex02variable/
-/ex03operator/
-/ex04controlstatement/
-/ex05Method/
 /ex06Array/
 /ex07string/
 /ex08class/
@@ -18,8 +12,7 @@
 /ex17collection/
 /ex18lambda/
 /ex19thread/
-/ex21jdbc/
-/quiz_game/
-/HelloWorld.class
 /ex20io/
+/ex21jdbc/
 /practice.class
+/quiz_game/
