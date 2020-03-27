@@ -49,5 +49,4 @@ public class Ex06DeveloperDefine {
 		}
 		return inputAge;
 	}
-
 }
