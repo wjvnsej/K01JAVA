@@ -1,6 +1,5 @@
 package ex21jdbc.prepared;
 
-import java.util.Date;
 import java.util.Scanner;
 
 import ex21jdbc.connect.IConnectImpl;
