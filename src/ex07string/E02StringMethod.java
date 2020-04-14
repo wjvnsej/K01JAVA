@@ -84,7 +84,7 @@ public class E02StringMethod {
 		/*
 		 7] endsWith()
 		 	: 문자열이 특정 문자열로 끝나면 ture, 아니면 false를 반환한다.
-		 8]startsWith)_
+		 8]startsWith()
 		 	: 문자열이 특정 문자열로 시작하면 true, 아니면 false를 반환한다.
 		 */
 				System.out.println("www.daum.net".endsWith("net"));
