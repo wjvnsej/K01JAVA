@@ -1,12 +1,3 @@
-/HelloWorld.class
-/common/
-/ex01start/
-/ex02variable/
-/ex03operator/
-/ex04controlstatement/
-/ex05Method/
-/ex06Array/
-/ex07string/
 /ex08class/
 /ex09package/
 /ex10accessmodifier/
@@ -23,3 +14,4 @@
 /ex21jdbc/
 /practice.class
 /quiz_game/
+/test.class
