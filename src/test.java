@@ -1,36 +1,41 @@
+import java.util.Arrays;
 
 public class test {
 
 	public static void main(String[] args) {
 		
-		String[] participant = new String[3];
-		participant[0] = "leo";
-		participant[1] = "kiki";
-		participant[2] = "eden";
+		int[] array = {1, 5, 2, 6, 3, 7, 4};
+		int[][] commands = {
+							{2, 5, 3}, 
+							{4, 4, 1}, 
+							{1, 7, 3}
+							};
+		int[] answer = new int [commands.length];
+		int x = 0, z = 1;
 		
-		String[] completion = new String[2];
-		participant[0] = "leo";
-		participant[1] = "kiki";
+		for(int i = 0; i < answer.length; i++) {
+			int[] array2 = new int[ (commands[x][1] - commands[x][0]) + 1];
+			
+			for (int j = 0; j < array2.length; j++) {
+				
+				array2[j] =  array[commands[x][0] - z];		
+				z--;
+				if(array[j] == array[commands[x][1] - 1]) {
+					break;
+				}
+			}
+						
+			Arrays.sort(array2);
+					
+			answer[i] = array2[commands[x][2] -1];
+			x++;
+			z = 1;
+		}
 		
+		for(int i = 0; i < answer.length; i++) {
+			System.out.print(answer[i] + " ");
+		}
 		
 	}
 	
-	public String solution(String[] participant, String[] completion) {
-        String answer = "";
-        
-        for (int i = 0; i <= participant.length; i++) {
-            
-            for(int j = 0; j <= completion.length; j++) {
-                
-                if(participant[i] != completion[j]) {
-                    answer = participant[i];
-                    completion[j] = "";
-                    break;
-                }
-            }
-        }
-        
-        return answer;
-    }
-
 }

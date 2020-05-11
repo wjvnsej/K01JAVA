@@ -28,7 +28,8 @@ public class E05TwoDimArray01 {
 		 */
 		
 		for(int i=0;i<arr.length;i++) {
-			System.out.printf("%d행의 크기:%d\n",i,arr[i].length);
+			System.out.printf("%d행의 크"
+					+ "기:%d\n",i,arr[i].length);
 			System.out.printf("%d행 출력:%s\n",i,arr[i]);
 		}
 		
