@@ -1,3 +1,14 @@
+/HelloWorld.class
+/common/
+/ex01start/
+/ex02variable/
+/ex03operator/
+/ex04controlstatement/
+/ex05Method/
+/ex06Array/
+/ex07string/
+/ex08class/
+/ex09package/
 /ex10accessmodifier/
 /ex11static/
 /ex12inheritance/
@@ -10,7 +21,6 @@
 /ex19thread/
 /ex20io/
 /ex21jdbc/
-/practice.class
 /quiz_game/
+/practice.class
 /test.class
-/ex03operator/
