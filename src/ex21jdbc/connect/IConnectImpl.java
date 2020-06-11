@@ -6,6 +6,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Scanner;
 
 public class IConnectImpl implements IConnect {
@@ -15,6 +16,8 @@ public class IConnectImpl implements IConnect {
 	
 	//프로시져 혹은 함수를 호출하기 위한 객체
 	public CallableStatement csmt;
+	
+	public Statement stmt;
 	
 	public Connection con;
 	public ResultSet rs;
