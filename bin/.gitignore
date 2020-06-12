@@ -9,8 +9,6 @@
 /ex07string/
 /ex08class/
 /ex09package/
-/ex10accessmodifier/
-/ex11static/
 /ex12inheritance/
 /ex13interface/
 /ex14innerclass/
@@ -21,6 +19,6 @@
 /ex19thread/
 /ex20io/
 /ex21jdbc/
-/quiz_game/
 /practice.class
+/quiz_game/
 /test.class
